@@ -22,7 +22,7 @@
 - **Covered Topics:** (Subject to change)  
   | Week | Date       | Topic                        | Assignment               |
   |------|------------|------------------------------|--------------------------|
-  | 1    | 01/19/2024 | Intro to AI in Python        |                          |
+  | 1    | 01/19/2024 | [Intro to AI in Python](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/tree/main/week_1)        |      [NumPy_Assignment_1](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/tree/main/Exploring_NumPy_Assignment_1.md)            |
   | 2    | 01/26/2024 | Data Frames in Pandas        |                          |
   | 3    | 02/09/2024 | PyTorch                      |                          |
   | 4    | 02/16/2024 | K Means Clustering           |                          |
