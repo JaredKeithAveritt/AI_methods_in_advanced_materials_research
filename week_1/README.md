@@ -1,4 +1,7 @@
-### Tutorial: Python's Significance in Materials Science
+
+#### Introduction to AI in Materials Science
+
+**TBA**
 
 #### Introduction to Python in Materials Science
 
