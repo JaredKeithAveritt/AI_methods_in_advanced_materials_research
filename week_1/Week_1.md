@@ -281,7 +281,6 @@ print(np.max(numbers))
 NumPy is a powerful library for numerical computations and array manipulations in Python. Its ability to handle arrays efficiently makes it a cornerstone for scientific computing, data analysis, and machine learning tasks. 
 
 Note: please check out the documentation for NumPy for more tutorials and functionalities [CLICK HERE FOR NumPy DOCUMENTATION](https://numpy.org/doc/stable/)
-```
 
 
 First assignment  [CLICK HERE FOR DIRECTIONS](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/blob/main/week_1/Exploring_NumPy_Assignment_1.md)
