@@ -1,12 +1,12 @@
 
-#### Introduction to AI in Materials Science
+# Introduction to AI in Materials Science
 
-### Artificial Intelligence (AI) is a general term covering various subfields, including:
+## Artificial Intelligence (AI) is a general term covering various subfields, including:
 1.  **Machine Learning (ML):** Focuses on algorithms that enable computers to learn from data.
 2. **Neural Networks (NNs):** Fundamental in many ML models, inspired by the human brain's structure.
 3. **Large Language Models (LLMs):** A specific application of NNs. Excel in understanding and generating human-like language, e.g., GPT-3.
 4. 
-## Common misunderstandings about AI:
+### Common misunderstandings about AI:
 1. **All-powerful solution:** AI can't solve every problem; it's task-specific.
 2. **Human-like intelligence:** AI lacks general intelligence comparable to humans.
 3. **Unbiased objectivity:** AI inherits biases from training data.
@@ -26,7 +26,7 @@ LLMS models like GPT can be useful in analyzing experimental data by:
 In essence, LLMS can act as intelligent assistants, aiding researchers in navigating and extracting valuable information from the vast amount (millions or billions) of data generated in materials research.
 
 ---
-### LLMs
+## LLMs
 GPT-3 (Generative Pre-trained Transformer 3), are AI models designed for natural language processing tasks. These models are characterized by their extensive scale, incorporating millions or even billions of parameters. Here are key features:
 
 1. **Pre-training:** These models are pre-trained on massive datasets containing parts of the Internet, books, and various texts. During pre-training, they learn language patterns, context, and relationships.
@@ -60,7 +60,7 @@ Key components of a neural network:
 Neural networks are used in machine learning to perform tasks such as pattern recognition, classification, regression, and more. Deep neural networks, with multiple hidden layers, are particularly effective in capturing intricate patterns and representations in complex datasets.
 
 —--
-### ML 
+## ML 
 Machine learning (ML) focuses on developing algorithms and models that enable computers to learn from data and make predictions or decisions without being explicitly programmed for a particular task. (Such as: solving dynamics without ever knowing newtons equation). The core idea is to allow machines to improve their performance on a specific task over time through experience.
 
 -insert figure from https://medium.com/@codekalimi/list-of-machine-learning-models-61b51ad492f1
@@ -90,7 +90,7 @@ In summary:
 
 ---
 
-#### Python's Popularity in Scientific Computing
+# Python's Popularity in Scientific Computing
 
 **Overview:**
 Python is a preferred choice for scientific computing due to its robustness, extensive libraries, and a supportive developer community.
@@ -107,7 +107,7 @@ Python is a preferred choice for scientific computing due to its robustness, ext
 
 ---
 
-# Environments
+## Environments
 When working with Python, you have various environments for execution:
 
 1. **Windows Powershell:** If you're using a Windows system and are familiar with Powershell, it's a powerful command-line tool that can execute Python scripts. [CLICK HERE FOR DIRECTIONS](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/blob/main/week_1/week_1/Python_Powershell.md)
@@ -126,9 +126,9 @@ For the first half of this workshop we will use google colab, if you are planing
 
 ---
 
-# Python Syntax Basics Tutorial
+## Python Syntax Basics Tutorial
 
-## Variables and Assignment
+### Variables and Assignment
 
 In Python, variables are containers used to store data values. Here's how you assign values to variables:
 
@@ -140,7 +140,7 @@ name = "Alice"  # string
 is_valid = True  # boolean
 ```
 
-## Data Types
+### Data Types
 
 Python supports various data types:
 
@@ -157,9 +157,9 @@ string_value = "Hello, Python!"
 boolean_value = True
 ```
 
-## Loops and Conditional Statements
+### Loops and Conditional Statements
 
-### Loops
+#### Loops
 
 **For Loops:** Iterate over a sequence (like a list, tuple, string, etc.).
 
@@ -179,7 +179,7 @@ while counter < 5:
     counter += 1
 ```
 
-### Conditional Statements
+#### Conditional Statements
 
 **If-Else Statements:** Execute different blocks of code based on conditions.
 
@@ -192,9 +192,7 @@ else:
     print("x is less than or equal to 5")
 ```
 
-# Functions and Libraries in Python
-
-## Functions
+## Functions and Libraries in Python
 
 ### Introduction to Functions
 
@@ -395,7 +393,7 @@ NumPy is a powerful library for numerical computations and array manipulations i
 Note: please check out the documentation for NumPy for more tutorials and functionalities [CLICK HERE FOR NumPy DOCUMENTATION](https://numpy.org/doc/stable/)
 
 ---
-### Multiprocessing in Python
+# Multiprocessing in Python
 
 Multiprocessing can be particularly useful for parallelizing tasks and improving efficiency, especially for CPU-bound operations. Here's a quick example using the `multiprocessing` module in Python to demonstrate the efficiency of parallel processing. In this example, we'll calculate the squares of numbers using multiple processes.
 
@@ -449,5 +447,5 @@ if __name__ == "__main__":
 In this example, the `calculate_square` function squares a number and simulates a time-consuming task using `time.sleep(1)`. The `parallel_square_calculation` function uses the `multiprocessing.Pool` to parallelize the square calculations across multiple processes. The `serial_square_calculation` function performs the same calculations sequentially.
 
 The timing information will show you how multiprocessing can significantly reduce the overall execution time compared to the serial version, especially for tasks that can be parallelized. Note that the actual speedup may vary based on factors like the number of available CPU cores and the nature of the task.
-
-First assignment  [CLICK HERE FOR DIRECTIONS](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/blob/main/week_1/Exploring_NumPy_Assignment_1.md)
+---
+# First assignment  [CLICK HERE FOR DIRECTIONS](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/blob/main/week_1/Exploring_NumPy_Assignment_1.md)
