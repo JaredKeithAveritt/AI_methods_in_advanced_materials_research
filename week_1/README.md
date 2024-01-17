@@ -13,15 +13,15 @@
 Addressing these misconceptions is crucial for a realistic understanding of AI's capabilities and limitations.
 
 ### In general, AI offers several benefits in materials research, such as:
-**Accelerated Discovery:** AI can analyze datasets and identify patterns, accelerating the discovery of new materials with desirable properties.
-**Optimization:** ML algorithms can optimize material properties by predicting how different parameters affect desired properties, guiding researchers in their experiments.
-**Cost and Time Savings:** AI can reduce the time and cost associated with experimental research by suggesting promising experiments, minimizing trial and error.
+- **Accelerated Discovery:** AI can analyze datasets and identify patterns, accelerating the discovery of new materials with desirable properties.
+- **Optimization:** ML algorithms can optimize material properties by predicting how different parameters affect desired properties, guiding researchers in their experiments.
+- **Cost and Time Savings:** AI can reduce the time and cost associated with experimental research by suggesting promising experiments, minimizing trial and error.
 We will be learning about 3 different subfields in AI, namely, LLMS, ML and NNs.
 LLMS models like GPT can be useful in analyzing experimental data by:
-**Data Interpretation:** They can assist in interpreting complex experimental results, extracting key insights, and generating human-readable summaries.
-**Contextual Understanding:** Language models can understand the context of scientific literature, helping researchers relate their experimental findings to existing knowledge.
-**Data Integration:** These models can integrate information from diverse sources, aiding researchers in connecting different aspects of experimental data and forming a comprehensive understanding.
-**Hypothesis Generation:** Language models can suggest hypotheses based on existing data, facilitating the generation of new ideas for further experimentation.
+- **Data Interpretation:** They can assist in interpreting complex experimental results, extracting key insights, and generating human-readable summaries.
+- **Contextual Understanding:** Language models can understand the context of scientific literature, helping researchers relate their experimental findings to existing knowledge.
+- **Data Integration:** These models can integrate information from diverse sources, aiding researchers in connecting different aspects of experimental data and forming a comprehensive understanding.
+- **Hypothesis Generation:** Language models can suggest hypotheses based on existing data, facilitating the generation of new ideas for further experimentation.
 In essence, LLMS can act as intelligent assistants, aiding researchers in navigating and extracting valuable information from the vast amount (millions or billions) of data generated in materials research.
 
 ---
