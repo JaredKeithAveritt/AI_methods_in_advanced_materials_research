@@ -11,6 +11,7 @@
 3. **Unbiased objectivity:** AI inherits biases from training data.
 4. **Human-like understanding:** AI lacks true comprehension or consciousness.
 Addressing these misconceptions is crucial for a realistic understanding of AI's capabilities and limitations.
+
 ### In general, AI offers several benefits in materials research, such as:
 **Accelerated Discovery:** AI can analyze datasets and identify patterns, accelerating the discovery of new materials with desirable properties.
 **Optimization:** ML algorithms can optimize material properties by predicting how different parameters affect desired properties, guiding researchers in their experiments.
@@ -23,7 +24,9 @@ LLMS models like GPT can be useful in analyzing experimental data by:
 **Hypothesis Generation:** Language models can suggest hypotheses based on existing data, facilitating the generation of new ideas for further experimentation.
 In essence, LLMS can act as intelligent assistants, aiding researchers in navigating and extracting valuable information from the vast amount (millions or billions) of data generated in materials research.
 
-GPT-3 (Generative Pre-trained Transformer 3), are advanced artificial intelligence models designed for natural language processing tasks. These models are characterized by their extensive scale, incorporating millions or even billions of parameters. Here are key features:
+---
+
+GPT-3 (Generative Pre-trained Transformer 3), are AI models designed for natural language processing tasks. These models are characterized by their extensive scale, incorporating millions or even billions of parameters. Here are key features:
 
 1. **Pre-training:** These models are pre-trained on massive datasets containing parts of the Internet, books, and various texts. During pre-training, they learn language patterns, context, and relationships.
 
@@ -35,11 +38,9 @@ GPT-3 (Generative Pre-trained Transformer 3), are advanced artificial intelligen
 
 5. **Diverse Applications:** Large language models find applications in natural language understanding, text generation, sentiment analysis, and more. They are valuable tools for developers, researchers, and businesses in diverse industries.
 
-GPT-3, developed by OpenAI, is one prominent example of a large language model that has demonstrated exceptional language understanding and generation capabilities.
+---
 
-—-
-
-A neural network is a computational model inspired by the structure and functioning of the human brain. It consists of interconnected nodes, called neurons, organized in layers. The basic building block is a neuron, which receives input, processes it through an activation function, and produces an output.
+A neural network (NN) is a computational model inspired by the structure and functioning of the human brain. It consists of interconnected nodes, called neurons, organized in layers. The basic building block is a neuron, which receives input, processes it through an activation function, and produces an output.
 
 ** insert diagram **
 
@@ -57,11 +58,11 @@ Key components of a neural network:
 
 Neural networks are used in machine learning to perform tasks such as pattern recognition, classification, regression, and more. Deep neural networks, with multiple hidden layers, are particularly effective in capturing intricate patterns and representations in complex datasets.
 
-—-
+—--
 
-Machine learning focuses on developing algorithms and models that enable computers to learn from data and make predictions or decisions without being explicitly programmed for a particular task. (Such as: solving dynamics without ever knowing newtons equation). The core idea is to allow machines to improve their performance on a specific task over time through experience.
+Machine learning (ML) focuses on developing algorithms and models that enable computers to learn from data and make predictions or decisions without being explicitly programmed for a particular task. (Such as: solving dynamics without ever knowing newtons equation). The core idea is to allow machines to improve their performance on a specific task over time through experience.
 
-Key concepts in machine learning:
+Key concepts in ML:
 
 1. **Training Data:** Algorithms are trained on large datasets, allowing them to learn patterns, correlations, and features relevant to the task at hand.
 
@@ -75,6 +76,8 @@ Key concepts in machine learning:
 
 Machine learning is applied in various domains, including image and speech recognition, natural language processing, recommendation systems, healthcare, finance, and more. It plays a crucial role in automating tasks and extracting meaningful insights from large datasets.
 
+---
+
 In summary: 
 - **Large Language Models (LLMs):** LLMs, like GPT-3, are a specific type of neural network architecture designed for natural language processing tasks. They are large-scale models with millions or billions of parameters and excel at understanding, generating, and processing human-like text.
 
@@ -84,6 +87,7 @@ In summary:
 
 In summary, LLMs are a specific application of neural networks, which, in turn, are a subset of the broader field of machine learning. LLMs focus on language-related tasks, neural networks are a foundational architecture in machine learning, and machine learning is the overarching field that encompasses diverse learning approaches and applications.
 
+---
 
 #### Introduction to Python in Materials Science
 
