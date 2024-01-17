@@ -5,6 +5,7 @@
 1.  **Machine Learning (ML):** Focuses on algorithms that enable computers to learn from data.
 2. **Neural Networks (NNs):** Fundamental in many ML models, inspired by the human brain's structure.
 3. **Large Language Models (LLMs):** A specific application of NNs. Excel in understanding and generating human-like language, e.g., GPT-3.
+4. 
 ## Common misunderstandings about AI:
 1. **All-powerful solution:** AI can't solve every problem; it's task-specific.
 2. **Human-like intelligence:** AI lacks general intelligence comparable to humans.
@@ -90,21 +91,6 @@ In summary:
 In summary, LLMs are a specific application of neural networks, which, in turn, are a subset of the broader field of machine learning. LLMs focus on language-related tasks, neural networks are a foundational architecture in machine learning, and machine learning is the overarching field that encompasses diverse learning approaches and applications.
 
 ---
-
-#### Introduction to Python in Materials Science
-
-**Overview:**
-Python is highly valued in materials science due to its simplicity and powerful libraries designed for scientific computations and data analysis.
-
-**Why Python in Materials Science:**
-- **Versatility:** Python offers adaptable libraries like NumPy, Pandas, SciPy, and Matplotlib, ideal for diverse materials science applications.
-- **Ease of Use:** Its simple syntax makes it easy to learn and use, allowing researchers to focus on problem-solving.
-- **Rich Ecosystem:** Python’s libraries facilitate efficient data handling, numerical computations, and visualization, essential in materials science.
-
-**Significance in Materials Science:**
-- **Data Handling:** Python efficiently manages and manipulates large datasets prevalent in materials science.
-- **Numerical Computing:** Libraries like NumPy enable optimized numerical operations, crucial for simulations and analysis.
-- **Visualization:** Tools like Matplotlib aid in visualizing complex data, aiding in understanding research findings.
 
 #### Python's Popularity in Scientific Computing
 
