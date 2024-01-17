@@ -32,3 +32,5 @@
   | 8    | 04/05/2024 | TorchANI                     |                          |
   | 9    | 04/12/2024 | LLM                          |                          |
   | 10   | 04/19/2024 | LLM                          |                          |
+
+  - **Survey Link:** [Complete initial survey](https://forms.gle/XqTftcTnfcGHet6U6)
