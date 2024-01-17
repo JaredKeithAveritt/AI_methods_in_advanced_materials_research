@@ -5,7 +5,7 @@
 1.  **Machine Learning (ML):** Focuses on algorithms that enable computers to learn from data.
 2. **Neural Networks (NNs):** Fundamental in many ML models, inspired by the human brain's structure.
 3. **Large Language Models (LLMs):** A specific application of NNs. Excel in understanding and generating human-like language, e.g., GPT-3.
-4. 
+    
 ### Common misunderstandings about AI:
 1. **All-powerful solution:** AI can't solve every problem; it's task-specific.
 2. **Human-like intelligence:** AI lacks general intelligence comparable to humans.
