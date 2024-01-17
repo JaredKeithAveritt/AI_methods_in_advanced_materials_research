@@ -62,6 +62,8 @@ Neural networks are used in machine learning to perform tasks such as pattern re
 
 Machine learning (ML) focuses on developing algorithms and models that enable computers to learn from data and make predictions or decisions without being explicitly programmed for a particular task. (Such as: solving dynamics without ever knowing newtons equation). The core idea is to allow machines to improve their performance on a specific task over time through experience.
 
+-insert figure from https://medium.com/@codekalimi/list-of-machine-learning-models-61b51ad492f1
+
 Key concepts in ML:
 
 1. **Training Data:** Algorithms are trained on large datasets, allowing them to learn patterns, correlations, and features relevant to the task at hand.
