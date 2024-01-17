@@ -288,6 +288,43 @@ import pandas as pd
 data = {'Name': ['Alice', 'Bob', 'Charlie'], 'Age': [25, 30, 35]}
 df = pd.DataFrame(data)
 print(df)
+```
+
+time is a usefull library to see how long it takes for codes to execute, so you can get an idea of the scalability of your code (if it takes too long -- there are other options, such as HPC's).
+
+```python
+import numpy as np
+import time
+
+# Function to perform matrix multiplication using NumPy
+def numpy_matrix_multiply(matrix_size):
+    A = np.random.rand(matrix_size, matrix_size)
+    B = np.random.rand(matrix_size, matrix_size)
+    start_time = time.time()
+    result = np.dot(A, B)
+    end_time = time.time()
+    return end_time - start_time
+
+# Function to perform matrix multiplication using Python lists
+def list_matrix_multiply(matrix_size):
+    A = [[np.random.rand() for _ in range(matrix_size)] for _ in range(matrix_size)]
+    B = [[np.random.rand() for _ in range(matrix_size)] for _ in range(matrix_size)]
+    start_time = time.time()
+    result = [[sum(a * b for a, b in zip(row_a, col_b)) for col_b in zip(*B)] for row_a in A]
+    end_time = time.time()
+    return end_time - start_time
+
+# Define the matrix size
+matrix_size = 100
+
+# Time NumPy matrix multiplication
+numpy_time = numpy_matrix_multiply(matrix_size)
+print(f"NumPy Matrix Multiplication Time: {numpy_time} seconds")
+
+# Time Python list matrix multiplication
+list_time = list_matrix_multiply(matrix_size)
+print(f"Python List Matrix Multiplication Time: {list_time} seconds")
+
 ``` 
 
 
@@ -371,5 +408,60 @@ NumPy is a powerful library for numerical computations and array manipulations i
 
 Note: please check out the documentation for NumPy for more tutorials and functionalities [CLICK HERE FOR NumPy DOCUMENTATION](https://numpy.org/doc/stable/)
 
+---
+### Multiprocessing in Python
+
+Multiprocessing can be particularly useful for parallelizing tasks and improving efficiency, especially for CPU-bound operations. Here's a quick example using the `multiprocessing` module in Python to demonstrate the efficiency of parallel processing. In this example, we'll calculate the squares of numbers using multiple processes.
+
+```python
+import multiprocessing
+import time
+
+# Function to calculate squares
+def calculate_square(number):
+    result = number * number
+    time.sleep(1)  # Simulate a time-consuming task
+    return result
+
+# Parallel version using multiprocessing
+def parallel_square_calculation(numbers):
+    with multiprocessing.Pool() as pool:
+        results = pool.map(calculate_square, numbers)
+    return results
+
+# Serial version without multiprocessing
+def serial_square_calculation(numbers):
+    results = []
+    for number in numbers:
+        result = calculate_square(number)
+        results.append(result)
+    return results
+
+if __name__ == "__main__":
+    # Generate a list of numbers
+    numbers_list = list(range(1, 11))
+
+    # Measure time for parallel square calculation
+    start_time_parallel = time.time()
+    parallel_results = parallel_square_calculation(numbers_list)
+    end_time_parallel = time.time()
+    parallel_time = end_time_parallel - start_time_parallel
+
+    # Measure time for serial square calculation
+    start_time_serial = time.time()
+    serial_results = serial_square_calculation(numbers_list)
+    end_time_serial = time.time()
+    serial_time = end_time_serial - start_time_serial
+
+    # Print results and timing information
+    print(f"Parallel Results: {parallel_results}")
+    print(f"Serial Results: {serial_results}")
+    print(f"Parallel Time: {parallel_time} seconds")
+    print(f"Serial Time: {serial_time} seconds")
+```
+
+In this example, the `calculate_square` function squares a number and simulates a time-consuming task using `time.sleep(1)`. The `parallel_square_calculation` function uses the `multiprocessing.Pool` to parallelize the square calculations across multiple processes. The `serial_square_calculation` function performs the same calculations sequentially.
+
+The timing information will show you how multiprocessing can significantly reduce the overall execution time compared to the serial version, especially for tasks that can be parallelized. Note that the actual speedup may vary based on factors like the number of available CPU cores and the nature of the task.
 
 First assignment  [CLICK HERE FOR DIRECTIONS](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/blob/main/week_1/Exploring_NumPy_Assignment_1.md)
