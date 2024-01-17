@@ -447,5 +447,7 @@ if __name__ == "__main__":
 In this example, the `calculate_square` function squares a number and simulates a time-consuming task using `time.sleep(1)`. The `parallel_square_calculation` function uses the `multiprocessing.Pool` to parallelize the square calculations across multiple processes. The `serial_square_calculation` function performs the same calculations sequentially.
 
 The timing information will show you how multiprocessing can significantly reduce the overall execution time compared to the serial version, especially for tasks that can be parallelized. Note that the actual speedup may vary based on factors like the number of available CPU cores and the nature of the task.
+
 ---
+
 # First assignment  [CLICK HERE FOR DIRECTIONS](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/blob/main/week_1/Exploring_NumPy_Assignment_1.md)
