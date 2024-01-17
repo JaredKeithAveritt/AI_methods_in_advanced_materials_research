@@ -1,7 +1,89 @@
 
 #### Introduction to AI in Materials Science
 
-**TBA**
+### Artificial Intelligence (AI) is a general term covering various subfields, including:
+1.  **Machine Learning (ML):** Focuses on algorithms that enable computers to learn from data.
+2. **Neural Networks (NNs):** Fundamental in many ML models, inspired by the human brain's structure.
+3. **Large Language Models (LLMs):** A specific application of NNs. Excel in understanding and generating human-like language, e.g., GPT-3.
+## Common misunderstandings about AI:
+1. **All-powerful solution:** AI can't solve every problem; it's task-specific.
+2. **Human-like intelligence:** AI lacks general intelligence comparable to humans.
+3. **Unbiased objectivity:** AI inherits biases from training data.
+4. **Human-like understanding:** AI lacks true comprehension or consciousness.
+Addressing these misconceptions is crucial for a realistic understanding of AI's capabilities and limitations.
+### In general, AI offers several benefits in materials research, such as:
+**Accelerated Discovery:** AI can analyze datasets and identify patterns, accelerating the discovery of new materials with desirable properties.
+**Optimization:** ML algorithms can optimize material properties by predicting how different parameters affect desired properties, guiding researchers in their experiments.
+**Cost and Time Savings:** AI can reduce the time and cost associated with experimental research by suggesting promising experiments, minimizing trial and error.
+We will be learning about 3 different subfields in AI, namely, LLMS, ML and NNs.
+LLMS models like GPT can be useful in analyzing experimental data by:
+**Data Interpretation:** They can assist in interpreting complex experimental results, extracting key insights, and generating human-readable summaries.
+**Contextual Understanding:** Language models can understand the context of scientific literature, helping researchers relate their experimental findings to existing knowledge.
+**Data Integration:** These models can integrate information from diverse sources, aiding researchers in connecting different aspects of experimental data and forming a comprehensive understanding.
+**Hypothesis Generation:** Language models can suggest hypotheses based on existing data, facilitating the generation of new ideas for further experimentation.
+In essence, LLMS can act as intelligent assistants, aiding researchers in navigating and extracting valuable information from the vast amount (millions or billions) of data generated in materials research.
+
+GPT-3 (Generative Pre-trained Transformer 3), are advanced artificial intelligence models designed for natural language processing tasks. These models are characterized by their extensive scale, incorporating millions or even billions of parameters. Here are key features:
+
+1. **Pre-training:** These models are pre-trained on massive datasets containing parts of the Internet, books, and various texts. During pre-training, they learn language patterns, context, and relationships.
+
+2. **Transformer Architecture:** Large language models typically utilize the transformer architecture, which allows them to capture long-range dependencies in data effectively.
+
+3. **Generative Capability:** They have the ability to generate coherent and contextually relevant text. Given a prompt, they can generate new content, answer questions, or complete sentences.
+
+4. **Fine-tuning:** After pre-training, models can be fine-tuned for specific tasks or applications, making them versatile for various language-related applications like translation, summarization, and question-answering.
+
+5. **Diverse Applications:** Large language models find applications in natural language understanding, text generation, sentiment analysis, and more. They are valuable tools for developers, researchers, and businesses in diverse industries.
+
+GPT-3, developed by OpenAI, is one prominent example of a large language model that has demonstrated exceptional language understanding and generation capabilities.
+
+—-
+
+A neural network is a computational model inspired by the structure and functioning of the human brain. It consists of interconnected nodes, called neurons, organized in layers. The basic building block is a neuron, which receives input, processes it through an activation function, and produces an output.
+
+** insert diagram **
+
+Key components of a neural network:
+
+1. **Input Layer:** Receives the initial data or features to be processed.
+
+2. **Hidden Layers:** Intermediate layers between the input and output layers where computations take place. Each layer contains neurons that transform the input data.
+
+3. **Output Layer:** Produces the final output based on the processed information from the hidden layers.
+
+4. **Weights and Biases:** Parameters associated with the connections between neurons. They are adjusted during the training process to optimize the network's performance.
+
+5. **Activation Function:** Introduces non-linearity to the model, allowing it to learn complex relationships in the data.
+
+Neural networks are used in machine learning to perform tasks such as pattern recognition, classification, regression, and more. Deep neural networks, with multiple hidden layers, are particularly effective in capturing intricate patterns and representations in complex datasets.
+
+—-
+
+Machine learning focuses on developing algorithms and models that enable computers to learn from data and make predictions or decisions without being explicitly programmed for a particular task. (Such as: solving dynamics without ever knowing newtons equation). The core idea is to allow machines to improve their performance on a specific task over time through experience.
+
+Key concepts in machine learning:
+
+1. **Training Data:** Algorithms are trained on large datasets, allowing them to learn patterns, correlations, and features relevant to the task at hand.
+
+2. **Learning Algorithms:** These are the mathematical models that analyze and learn from the training data. The type of algorithm chosen depends on the nature of the problem, such as classification, regression, clustering, or reinforcement learning.
+
+3. **Features:** Characteristics or attributes of the input data that the algorithm uses to make predictions.
+
+4. **Supervised and Unsupervised Learning:** In supervised learning, models are trained on labeled data, where the algorithm is provided with input-output pairs. In unsupervised learning, the algorithm explores patterns in unlabeled data.
+
+5. **Training and Inference:** During the training phase, the model learns from the data. In the inference phase, the trained model makes predictions or decisions on new, unseen data.
+
+Machine learning is applied in various domains, including image and speech recognition, natural language processing, recommendation systems, healthcare, finance, and more. It plays a crucial role in automating tasks and extracting meaningful insights from large datasets.
+
+In summary: 
+- **Large Language Models (LLMs):** LLMs, like GPT-3, are a specific type of neural network architecture designed for natural language processing tasks. They are large-scale models with millions or billions of parameters and excel at understanding, generating, and processing human-like text.
+
+- **Neural Networks (NN):** Neural networks are a broader category that includes various architectures, not limited to language processing. NNs are computational models inspired by the human brain, consisting of interconnected nodes organized in layers. They are a fundamental component of machine learning and are used for various tasks like image recognition, speech processing, and more.
+
+- **Machine Learning (ML):** Machine learning is a broader field that encompasses various approaches, including neural networks. ML involves the development of algorithms and models that allow computers to learn patterns from data and make predictions or decisions without explicit programming. It includes supervised learning, unsupervised learning, reinforcement learning, and other techniques.
+
+In summary, LLMs are a specific application of neural networks, which, in turn, are a subset of the broader field of machine learning. LLMs focus on language-related tasks, neural networks are a foundational architecture in machine learning, and machine learning is the overarching field that encompasses diverse learning approaches and applications.
+
 
 #### Introduction to Python in Materials Science
 
