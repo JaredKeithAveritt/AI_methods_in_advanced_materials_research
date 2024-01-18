@@ -46,7 +46,7 @@ A neural network (NN) is a computational model inspired by the structure and fun
 
 Key components of a neural network:
 
-![Parts of a NN](./NN_parts.png)
+![Parts of a NN]((https://miro.medium.com/v2/resize:fit:4800/format:webp/1*ZXAOUqmlyECgfVa81Sr6Ew.png)
 
 1. **Input Layer:** Receives the initial data or features to be processed.
 
