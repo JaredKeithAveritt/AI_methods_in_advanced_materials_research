@@ -43,9 +43,10 @@ GPT-3 (Generative Pre-trained Transformer 3), are AI models designed for natural
 ## NNs
 A neural network (NN) is a computational model inspired by the structure and functioning of the human brain. It consists of interconnected nodes, called neurons, organized in layers. The basic building block is a neuron, which receives input, processes it through an activation function, and produces an output.
 
-** insert diagram **
 
 Key components of a neural network:
+
+![Parts of a NN](./NN_parts.png)
 
 1. **Input Layer:** Receives the initial data or features to be processed.
 
@@ -87,6 +88,8 @@ In summary:
 - **Large Language Models (LLMs):** LLMs, like GPT-3, are a specific type of neural network architecture designed for natural language processing tasks. They are large-scale models with millions or billions of parameters and excel at understanding, generating, and processing human-like text.
 
 - **Neural Networks (NN):** Neural networks are a broader category that includes various architectures, not limited to language processing. NNs are computational models inspired by the human brain, consisting of interconnected nodes organized in layers. They are a fundamental component of machine learning and are used for various tasks like image recognition, speech processing, and more.
+
+ ![Example NN for use in Material Science](https://www.researchgate.net/publication/329100892/figure/fig2/AS:740403674370051@1553537400770/Artificial-neural-network-with-10-input-variables-and-two-hidden-layers.jpg)
 
 - **Machine Learning (ML):** Machine learning is a broader field that encompasses various approaches, including neural networks. ML involves the development of algorithms and models that allow computers to learn patterns from data and make predictions or decisions without explicit programming. It includes supervised learning, unsupervised learning, reinforcement learning, and other techniques.
 
