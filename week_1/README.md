@@ -65,7 +65,9 @@ Machine learning (ML) focuses on developing algorithms and models that enable co
 
 -insert figure from https://medium.com/@codekalimi/list-of-machine-learning-models-61b51ad492f1
 
-Key concepts in ML:
+![List of ML Models](./ML_types.png)
+
+# Key concepts in ML:
 
 1. **Training Data:** Algorithms are trained on large datasets, allowing them to learn patterns, correlations, and features relevant to the task at hand.
 
