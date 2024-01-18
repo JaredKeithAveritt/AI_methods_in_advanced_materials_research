@@ -89,7 +89,7 @@ In summary:
 
 - **Neural Networks (NN):** Neural networks are a broader category that includes various architectures, not limited to language processing. NNs are computational models inspired by the human brain, consisting of interconnected nodes organized in layers. They are a fundamental component of machine learning and are used for various tasks like image recognition, speech processing, and more.
 
- ![Example NN for use in Material Science](https://www.researchgate.net/publication/329100892/figure/fig2/AS:740403674370051@1553537400770/Artificial-neural-network-with-10-input-variables-and-two-hidden-layers.jpg)
+ ![Example NN for use in Material Science](./NN_parts.png)
 
 - **Machine Learning (ML):** Machine learning is a broader field that encompasses various approaches, including neural networks. ML involves the development of algorithms and models that allow computers to learn patterns from data and make predictions or decisions without explicit programming. It includes supervised learning, unsupervised learning, reinforcement learning, and other techniques.
 
