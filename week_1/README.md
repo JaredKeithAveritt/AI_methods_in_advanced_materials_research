@@ -112,6 +112,27 @@ Python is a preferred choice for scientific computing (including AI) due to its 
 
 ---
 
+———————————————-
+### Python Crash Course
+[Very Short Crash Course](https://youtu.be/JJmcL1N2KQs?si=V4ooqkGjR3quSa3o)
+[ Super Long (9h)/Basically a class on Python – Starts from 0 Python Knowledge](https://www.youtube.com/watch?v=GPVsHOlRBBI)  Recomended by Anna Sheets
+———————————————-
+
+## Examples of AI in mat science research
+
+Papers
+1. [Machine Learning Screening of Metal-Ion Battery Electrode Materials](https://pubs.acs.org/doi/abs/10.1021/acsami.1c04627)
+2. [MatSciBERT: A materials domain language model for text mining and information extraction](https://doi.org/10.1038/s41524-022-00784-w)
+3. 
+
+Softwares
+
+1. [Anikin - (easy, pytorch built on)] (https://doi.org/10.1021/acs.jcim.0c00451)
+2. [Chgnet](https://chgnet.lbl.gov)
+3. [Matbench](https://matbench-discovery.materialsproject.org)
+
+---
+
 ## Environments
 When working with Python, you have various environments for execution:
 
