@@ -2,47 +2,57 @@
 # Introduction to AI in Materials Science
 
 ## Artificial Intelligence (AI) is a general term covering various subfields, including:
-1.  **Machine Learning (ML):** Focuses on algorithms that enable computers to learn from data.
+1. **Machine Learning (ML):** Focuses on algorithms that enable computers to learn from data.
 2. **Neural Networks (NNs):** Fundamental in many ML models, inspired by the human brain's structure.
-3. **Large Language Models (LLMs):** A specific application of NNs. Excel in understanding and generating human-like language, e.g., GPT-3.
+3. **Large Language Models (LLMs):** A specific application of NNs. Understanding and generating human-like language, e.g., GPT-3 (Generative Pre-trained Transformer 3).
     
 ### Common misunderstandings about AI:
-1. **All-powerful solution:** AI can't solve every problem; it's task-specific.
-2. **Human-like intelligence:** AI lacks general intelligence comparable to humans.
-3. **Unbiased objectivity:** AI inherits biases from training data.
+1. **All-powerful solution:** AI methods are task-specific.
+2. **Human-like intelligence:** AI is very far from intelligence comparable to humans.
+3. **Unbiased objectivity:** AI inherits biases from training data (halucinates).
 4. **Human-like understanding:** AI lacks true comprehension or consciousness.
-Addressing these misconceptions is crucial for a realistic understanding of AI's capabilities and limitations.
+
+### What is necessary to perform AI methods in your research
+1. **Generate a hypothesis:** Clearly define your research question or problem (this is usually the hardest part for most).
+2. **Working knowledge of Python:** Master the basics of Python, a key language in AI methods, and understand relevant libraries like TensorFlow or PyTorch.
+3. **Data Science fundamentals:** Familiarize yourself with data preprocessing, feature engineering, and statistical analysis.
+4. **Machine Learning algorithms:** Understand various machine learning algorithms for informed model selection.
+5. **Data Collection and Preparation:** Develop skills in collecting and preparing datasets for AI model training.
+6. **Model Evaluation techniques:** Learn to assess model performance using metrics like precision, recall, and accuracy.
+8. **Computational Resources:** Ensure access to sufficient computing power for resource-intensive tasks. All JSNN Students are fortunate enough as we have access through [UNC-CH](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/blob/main/week_1/Python_UNC.md)
+
 
 ### In general, AI offers several benefits in materials research, such as:
-- **Accelerated Discovery:** AI can analyze datasets and identify patterns, accelerating the discovery of new materials with desirable properties.
-- **Optimization:** ML algorithms can optimize material properties by predicting how different parameters affect desired properties, guiding researchers in their experiments.
+- **Accelerated Discovery:** High-throughput screening can speed up the discovery of materials with specific functionalities.
+- **Optimization:** ML algorithms can optimize material properties by predicting how different parameters affect desired properties.
 - **Cost and Time Savings:** AI can reduce the time and cost associated with experimental research by suggesting promising experiments, minimizing trial and error.
-We will be learning about 3 different subfields in AI, namely, LLMS, ML and NNs.
-LLMS models like GPT can be useful in analyzing experimental data by:
-- **Data Interpretation:** They can assist in interpreting complex experimental results, extracting key insights, and generating human-readable summaries.
-- **Contextual Understanding:** Language models can understand the context of scientific literature, helping researchers relate their experimental findings to existing knowledge.
-- **Data Integration:** These models can integrate information from diverse sources, aiding researchers in connecting different aspects of experimental data and forming a comprehensive understanding.
-- **Hypothesis Generation:** Language models can suggest hypotheses based on existing data, facilitating the generation of new ideas for further experimentation.
-In essence, LLMS can act as intelligent assistants, aiding researchers in navigating and extracting valuable information from the vast amount (millions or billions) of data generated in materials research.
-
+- **Property Prediction:** Hypothesize AI models can predict material properties based on composition, aiding in targeted research.
+- **Synthesis Optimization:** Optimize synthesis conditions for desired material characteristics.
+- **Structure-Property Relationships:** Correlate between atomic structure and material properties.
+  
 ---
+
 ## LLMs
-GPT-3 (Generative Pre-trained Transformer 3), are AI models designed for natural language processing tasks. These models are characterized by their extensive scale, incorporating millions or even billions of parameters. Here are key features:
+GPT-3s are AI models designed for natural language processing tasks. These models are characterized by their extensive scale, incorporating millions or even billions of parameters. Here are key features:
 
 1. **Pre-training:** These models are pre-trained on massive datasets containing parts of the Internet, books, and various texts. During pre-training, they learn language patterns, context, and relationships.
 
-2. **Transformer Architecture:** Large language models typically utilize the transformer architecture, which allows them to capture long-range dependencies in data effectively.
+2. **Transformer Architecture:** Large language models typically utilize the [transformer architecture](https://machinelearningmastery.com/the-transformer-model/), which allows them to capture long-range dependencies in data effectively.
 
 3. **Generative Capability:** They have the ability to generate coherent and contextually relevant text. Given a prompt, they can generate new content, answer questions, or complete sentences.
 
 4. **Fine-tuning:** After pre-training, models can be fine-tuned for specific tasks or applications, making them versatile for various language-related applications like translation, summarization, and question-answering.
 
-5. **Diverse Applications:** Large language models find applications in natural language understanding, text generation, sentiment analysis, and more. They are valuable tools for developers, researchers, and businesses in diverse industries.
-
+5. **Diverse Applications:** Large language models find applications in natural language understanding, text generation, [sentiment analysis](https://en.wikipedia.org/wiki/Sentiment_analysis), and more. They are valuable tools for developers, researchers, and businesses in diverse industries.
+   
+- **Data Interpretation:** They can assist in interpreting experimental results, extracting insights, and generating human-readable outputs.
+  
+- **Data Integration:** These models can integrate information from diverse sources, aiding researchers in connecting different aspects of experimental data and forming a comprehensive understanding.
+  
+  
 ---
 ## NNs
 A neural network (NN) is a computational model inspired by the structure and functioning of the human brain. It consists of interconnected nodes, called neurons, organized in layers. The basic building block is a neuron, which receives input, processes it through an activation function, and produces an output.
-
 
 Key components of a neural network:
 
@@ -98,17 +108,7 @@ In summary:
 # Python's Popularity in Scientific Computing
 
 **Overview:**
-Python is a preferred choice for scientific computing due to its robustness, extensive libraries, and a supportive developer community.
-
-**Key Reasons for Python's Popularity:**
-- **Community Support:** Python’s large community continually develops scientific packages and
-- **Interoperability:** Python integrates well with other languages, facilitating access to established codes.
-- **Accessibility:** Being open-source, Python offers a wide array of tools without cost barriers.
-
-**Applications in Scientific Computing:**
-- **Simulation and Modeling:** Python supports computational methods vital for materials modeling and simulations.
-- **Data Analysis:** Its capabilities enable efficient processing and analysis of experimental and computational data.
-- **Machine Learning:** Python’s machine learning libraries aid in predictive models for materials properties.
+Python is a preferred choice for scientific computing (including AI) due to its robustness, extensive libraries, and a supportive community.
 
 ---
 
