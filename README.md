@@ -15,6 +15,11 @@
 
 - **Requirements:** Bring your laptop. You will not need to install anything to start. We will be using Jupyter notebooks through Google Colab. You will need a google account (your UNCG gmail will not work). The course begins with Python basics, progressing to large language models and convolutional neural networks. Moderate coding understanding (e.g., Matlab) is beneficial; extra Python learning resources will be provided.
 
+- ### Python Crash Course (Additional Resources to get you up to date with Python)
+- **[1.5 Hr -- Very Short Crash Course](https://youtu.be/JJmcL1N2KQs?si=V4ooqkGjR3quSa3o)**
+- **[9h -- Basically a class on Python – Starts from 0 Python Knowledge all the way to Pandas Data Frames](https://www.youtube.com/watch?v=GPVsHOlRBBI)**
+- **Both Recomended by Anna Sheets**
+
 - **Expected Learning Outcomes:** Implementation of AI in research, handling experimental results in data frames using Pandas and Python, utilizing PyTorch, scikit-learn, and featurization tools.
 
 - **Assignments:** Projects follow each lecture to test competency. Solutions are released before the subsequent lecture. Collaborative work is encouraged. Self-graded assignments with opportunities for guidance and feedback.
@@ -33,4 +38,4 @@
   | 9    | 04/12/2024 | LLM                          |                          |
   | 10   | 04/19/2024 | LLM                          |                          |
 
-  - **Survey Link:** [Complete initial survey](https://forms.gle/XqTftcTnfcGHet6U6)
+- **Survey Link:** [Complete initial survey](https://forms.gle/XqTftcTnfcGHet6U6)
