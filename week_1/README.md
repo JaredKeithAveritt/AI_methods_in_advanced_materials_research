@@ -74,8 +74,6 @@ Neural networks are used in machine learning to perform tasks such as pattern re
 ## ML 
 Machine learning (ML) focuses on developing algorithms and models that enable computers to learn from data and make predictions or decisions without being explicitly programmed for a particular task. (Such as: solving dynamics without ever knowing newtons equation). The core idea is to allow machines to improve their performance on a specific task over time through experience.
 
--insert figure from https://medium.com/@codekalimi/list-of-machine-learning-models-61b51ad492f1
-
 ![List of ML Models](./ML_types.png)
 
 # Key concepts in ML:
@@ -112,11 +110,12 @@ Python is a preferred choice for scientific computing (including AI) due to its 
 
 ---
 
-———————————————-
 ### Python Crash Course
-[Very Short Crash Course](https://youtu.be/JJmcL1N2KQs?si=V4ooqkGjR3quSa3o)
-[ Super Long (9h)/Basically a class on Python – Starts from 0 Python Knowledge](https://www.youtube.com/watch?v=GPVsHOlRBBI)  Recomended by Anna Sheets
-———————————————-
+- **[1.5 Hr -- Very Short Crash Course](https://youtu.be/JJmcL1N2KQs?si=V4ooqkGjR3quSa3o)**
+- **[9h -- Basically a class on Python – Starts from 0 Python Knowledge all the way to Pandas Data Frames](https://www.youtube.com/watch?v=GPVsHOlRBBI)**
+- **Both Recomended by Anna Sheets**
+
+---
 
 ## Examples of AI in mat science research
 
