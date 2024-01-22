@@ -348,4 +348,4 @@ This code extracts element symbols from the 'composition' column and creates new
 ---
 
 %% https://training.galaxyproject.org/training-material/topics/statistics/tutorials/clustering_machinelearning/tutorial.html
- studies that use ML for extracting hidden structure–performance relations from molecular simulation results
+ studies that use ML for extracting hidden structure–performance relations from molecular simulation results 10.1016/j.mtener.2023.101426
