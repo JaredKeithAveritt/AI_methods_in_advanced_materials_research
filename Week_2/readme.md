@@ -11,4 +11,5 @@ The following examples introduce concepts that will be very important to modern 
 
 ---
 papers of interest: https://doi.org/10.1002/adts.201900145
+data sets of interest: https://github.com/NinadBhat/supervised-learning-code
 Optional Lecture (on Pandas Dataframes and Tensors): [HERE](./Data_frames_and_Tensors.md)
