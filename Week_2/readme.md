@@ -171,7 +171,7 @@ Pandas is a powerful Python library widely used for data manipulation and analys
 
 ### DataFrames and Series
 
-Pandas introduces two main data structures: **DataFrame** and **Series**.
+Pandas introduces two main data structures: **DataFrame** and **Series**. More information about Pandas data structures can be found [Here](https://pandas.pydata.org/docs/user_guide/dsintro.html#intro-to-data-structures) 
 
 - **DataFrame:** A two-dimensional table with rows and columns. It is similar to a spreadsheet or SQL table.
 
@@ -277,7 +277,78 @@ Merging and joining help combine data from different DataFrames.
 merged_data = pd.merge(df1, df2, on='common_column')
 ```
 
-# Tutorial 1: Loading and Preprocessing Materials Data in Pandas
+## Using NumPy with Pandas DataFrames
+
+NumPy is a powerful library for numerical operations in Python, and it can be seamlessly integrated with pandas to perform operations on DataFrames. Below are some common operations you can perform using NumPy with pandas DataFrames.
+
+### Creating a DataFrame from a NumPy array
+
+```python
+import numpy as np
+import pandas as pd
+
+# Create a NumPy array
+data = np.array([[1, 2, 3], [4, 5, 6]])
+
+# Create a DataFrame from the NumPy array
+df = pd.DataFrame(data, columns=['A', 'B', 'C'])
+```
+
+### Performing Element-wise Operations
+
+You can use NumPy's element-wise operations directly on DataFrame columns.
+
+```python
+# Add a constant value to a column
+df['A'] = df['A'] + 10
+
+# Multiply a column by a constant
+df['B'] = df['B'] * 2
+```
+
+### Applying Universal Functions (ufuncs)
+
+NumPy's universal functions can be applied to entire DataFrames.
+
+```python
+# Take the square root of all elements in a DataFrame
+df = np.sqrt(df)
+```
+
+### Statistical Operations
+
+NumPy provides statistical functions that can be applied to DataFrame columns.
+
+```python
+# Calculate the mean of each column
+mean_values = np.mean(df, axis=0)
+```
+
+### Conditional Operations
+
+NumPy's boolean indexing can be used for conditional operations on DataFrames.
+
+```python
+# Set values in column 'C' to 0 where values in column 'A' are greater than 5
+df.loc[df['A'] > 5, 'C'] = 0
+```
+
+### Vectorized Operations
+
+NumPy's vectorized operations can be used for efficient element-wise operations.
+
+```python
+# Element-wise multiplication of two columns
+df['D'] = np.multiply(df['A'], df['B'])
+```
+
+Remember that NumPy operates on arrays, so when performing operations, it's usually applied to the underlying NumPy array of the DataFrame column. Also, pandas itself provides a lot of functionality for operations on DataFrames, so you might not always need to resort to NumPy for basic operations.
+
+--- 
+
+
+---
+# Tutorial 1 (Optional): Loading and Preprocessing Materials Data in Pandas
 
 In this tutorial, we'll cover the basics of loading materials data into a Pandas DataFrame and preprocessing it for machine learning tasks in the field of materials science. We'll use a sample dataset and perform essential preprocessing steps to ensure the data is ready for analysis and modeling.
 
