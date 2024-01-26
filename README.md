@@ -18,7 +18,7 @@
 - ### Python Crash Course (Additional Resources to get you up to date with Python)
 - **[1.5 Hr -- Very Short Crash Course](https://youtu.be/JJmcL1N2KQs?si=V4ooqkGjR3quSa3o)**
 - **[9h -- Basically a class on Python – Starts from 0 Python Knowledge all the way to Pandas Data Frames](https://www.youtube.com/watch?v=GPVsHOlRBBI)**
-- **Both Recomended by Anna Sheets**
+  - **Both Recomended by Anna Sheets**
 
 - **Expected Learning Outcomes:** Implementation of AI in research, handling experimental results in data frames using Pandas and Python, utilizing PyTorch, scikit-learn, and featurization tools.
 
