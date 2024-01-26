@@ -28,7 +28,7 @@
   | Week | Date       | Topic                        | Assignment               |
   |------|------------|------------------------------|--------------------------|
   | 1    | 01/19/2024 | [Intro to AI in Python](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/tree/main/week_1)        |      [NumPy_Assignment_1](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/tree/main/week_1/Exploring_NumPy_Assignment_1.md)            |
-  | 2    | 01/26/2024 | [Machine Learning Using Sklearn](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/tree/main/Week_2)      |                          |
+  | 2    | 01/26/2024 | [Machine Learning Using Sklearn](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/tree/main/Week_2)      | [Data_Frames_and_ML](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/blob/main/Week_2/Data_Frames_and_ML_HW_2.ipynb)                         |
   | 3    | 02/09/2024 | PyTorch                      |                          |
   | 4    | 02/16/2024 | K Means Clustering           |                          |
   | 5    | 02/23/2024 | Machine learning             |                          |
