@@ -39,3 +39,5 @@
   | 10   | 04/19/2024 | LLM                          |                          |                         |
 
 - **Survey Link:** [Complete initial survey](https://forms.gle/XqTftcTnfcGHet6U6)
+
+- **Lecture Notes Books on Computational Material Science** : [https://www.csfreelist.com/materialScBooksLinks.php] 
