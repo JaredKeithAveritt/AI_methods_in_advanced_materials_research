@@ -40,4 +40,7 @@
 
 - **Survey Link:** [Complete initial survey](https://forms.gle/XqTftcTnfcGHet6U6)
 
-- **Lecture Notes Books on Computational Material Science** : [https://www.csfreelist.com/materialScBooksLinks.php] 
+- **Lecture Notes Books on Computational Material Science** : [https://www.csfreelist.com/materialScBooksLinks.php]
+
+- **Libraries and Tools for Computational Material Science** : [https://matgl.ai] , [https://matbench-discovery.materialsproject.org], [www.TorchANI.]
+
