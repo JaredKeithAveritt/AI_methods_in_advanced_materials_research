@@ -31,8 +31,8 @@
   | 2    | 01/26/2024 | [Machine Learning Using Sklearn](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/tree/main/Week_2)      | [ML_DF_Assignment_2](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/blob/main/Week_2/Data_Frames_and_ML_HW_2.ipynb)                         | [Assignment_2_Solutions](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/blob/main/Week_2/Data_Frames_and_ML_HW_2_SOLUTIONS.ipynb)                |
   | 3    | 02/09/2024 | [Multi Layer Perceptrons](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/tree/main/Week_3)                   |                          |                           |  
   | 4    | 02/16/2024 | [PyTorch](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/tree/main/Week_4)        |  [Non-linear Classifier](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/blob/main/Week_4/%20pytorch_non_linear_classifier.ipynb)                        |          [Assignment 4 Solutions](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/blob/main/Week_4/%20pytorch_non_linear_classifier_solutions.ipynb)                  |
-  | 5    | 02/23/2024 | Feature Engineering          |                          |                          |
-  | 6    | 03/01/2024 | Featurization using Matminer  |                          |                        |
+  | 5    | 02/23/2024 | [Convolutional Neural Networks](https://github.com/JaredKeithAveritt/AI_methods_in_advanced_materials_research/tree/main/Week_5)          |                          |                          |
+  | 6    | 03/01/2024 | Feature Engineering   |                          |                        |
   | 7    | 03/15/2024 | Atomic Simulation Environment |                          |                        |
   | 8    | 04/05/2024 | TorchANI                     |                          |                        |
   | 9    | 04/12/2024 | LLM                          |                          |                        |
