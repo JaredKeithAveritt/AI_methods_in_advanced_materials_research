@@ -128,4 +128,4 @@ For more examples and advanced usage, check the following resources:
 
 ## Conclusion
 
-This tutorial has covered the basics of using Matminer for machine learning in the context of electronic studies of defective 2D materials. By following the steps outlined above, you can start building your own models to explore and predict the properties of new materials.
+This tutorial has covered the basics of using Matminer for machine learning in the context of electronic studies of 2D materials. By following the steps outlined above, you can start building your own models to explore and predict the properties of 2D materials.
