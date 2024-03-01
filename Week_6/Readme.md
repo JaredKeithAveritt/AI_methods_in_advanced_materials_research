@@ -10,7 +10,7 @@ Here's a list of databases for materials science, some of which may include data
    [Materials Cloud](https://www.materialscloud.org)
 
 4. **C2DB (Computational 2D Materials Database)**: Specializes in electronic structures and properties of 2D materials. Hosted by the Technical University of Denmark. Open access.
-   [C2DB](https://c2db.materialscloud.io)
+   [C2DB](https://cmr.fysik.dtu.dk/c2db/c2db.html)
 
 5. **NOMAD (Novel Materials Discovery) Repository & Archive**: Archives computational materials science data. Supported by several European institutions. Open access.
    [NOMAD](https://nomad-lab.eu)
