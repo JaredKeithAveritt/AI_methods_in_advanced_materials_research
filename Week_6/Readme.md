@@ -62,14 +62,20 @@ Matminer allows for easy retrieval of data from materials databases such as the 
 ### Example:
 
 ```python
-from matminer.data_retrieval.retrieve_MP import MPDataRetrieval
+from mp_api.client import MPRester
 
-# Initialize the data retrieval class
-mpdr = MPDataRetrieval()
-
-# Retrieve data for silicon (Si) band gaps
-df = mpdr.get_dataframe(criteria="Si", properties=["band_gap"])
+with MPRester("your_api_key_here") as mpr:
+    docs = mpr.materials.summary.search(material_ids=["mp-149"], fields=["structure"])
+    structure = docs[0].structure
+    # -- Shortcut for a single Materials Project ID:
+    structure = mpr.get_structure_by_material_id("mp-149")
 ```
+
+You will need to register to get an [API(https://en.wikipedia.org/wiki/API) from the [MP API Key] (https://materialsproject.org/api) 
+
+get started here : [Using the MP](https://docs.materialsproject.org/downloading-data/using-the-api/getting-started)
+
+https://api.materialsproject.org/docs
 
 For more on data retrieval, see the [Matminer documentation](https://hackingmaterials.lbl.gov/matminer/).
 
