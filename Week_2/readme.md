@@ -8,6 +8,12 @@ The following examples introduce concepts that will be very important to modern 
 1. [Fitting a line with Stochastic Gradient Descent](01_linear_regression_sgd.ipynb)
 2. [k-means: Another learning method for clustering data](02_clustering.ipynb)
 
+---
+
+Stochastic gradient descent is an iterative learning algorithm that uses a training dataset to update a model.
+The batch size is a hyperparameter of gradient descent that controls the number of training samples to work through before the model’s internal parameters are updated.
+The number of epochs is a hyperparameter of gradient descent that controls the number of complete passes through the training dataset.
+
 
 ---
 papers of interest: https://doi.org/10.1002/adts.201900145
