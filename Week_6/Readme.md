@@ -128,6 +128,7 @@ print(f"Mean Squared Error: {mse}")
 
 For more examples and advanced usage, check the following resources:
 
+-[first tutorial to try] (https://nbviewer.org/github/hackingmaterials/matminer_examples/blob/master/matminer_examples/machine_learning-nb/bulk_modulus.ipynb) 
 - [Matminer Examples](https://nbviewer.jupyter.org/github/hackingmaterials/matminer_examples/tree/master/)
 - [Materials Project Workshop](https://workshop.materialsproject.org/)
 - [Scikit-learn Documentation](https://scikit-learn.org/stable/)
